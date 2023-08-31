@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: cyan;
+        }
+        div{
+            position: absolute; 
+            left: 50%; 
+            top: 50%; 
+            transform: translate(-50%,-50%)
+        }
+        canvas{
+            position: relative;
+        }
+        button{
+            position: absolute;
+            top: 45%;
+            left: 49%;
+            transform: translate(-50%,-50%);
+            display: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <canvas id="canvas" width="400" height="500"></canvas>
+        <button id="resetButton">Restart</button>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
+
